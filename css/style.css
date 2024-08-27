@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/*Header*/
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #2b2b30;
+    padding-bottom: 50px;
+}
+
+header nav ul {
+    display: flex;
+    margin-left: 900px;
+    margin-top: 50px;
+    gap: 50px;   
+    list-style: none;
+}
+
+header nav ul li a:hover{
+    color: red
+}
+
+header nav img {
+    margin-left: 50px;
+}
+
+header h1 {
+    color: #ffffff;
+    font-size: 70px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    margin-left: 100px;
+    
+}
+
+header h1 span {
+    color: #0bf82a;
+}
+
+header h1 span2 {
+    color: red;
+}
+
+/*Main*/
+
+/*Section 1*/
+
+.Camisetas h2 {
+    margin-top: 50px;
+    color: rgb(5, 5, 5);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.Camisetas .grid-camisetas {
+    display: grid;
+    padding-left: 350px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: aqua;
+}
+
+.Camisetas .grid-camisetas .img1 {
+    display: grid;
+    width: 150px;
+    align-items: center;        
+}
+
+.Camisetas .grid-camisetas .img1 img {
+    width: 150px;
+    border-radius: 50px;
+    border-style: groove;
+}
+
+.Camisetas .grid-camisetas .img2 {
+    display: grid;
+    width: 0px;
+    align-items: center;        
+}
+
+.Camisetas .grid-camisetas .img2 img {
+    width: 150px;
+    border-radius: 50px;
+    border-style: groove;
+}
+
+.Camisetas .grid-camisetas .img3 {
+    display: grid;
+    width: 150px;
+    align-items: center;        
+}
+
+.Camisetas .grid-camisetas .img3 img {
+    width: 150px;
+    border-radius: 50px;
+    border-style: groove;
+}
+
+.Camisetas .grid-camisetas h3 {
+    font-size: 17px;
+    text-align: center;
+}
+
+.Camisetas .grid-camisetas a {
+    font-size: 15px;
+    text-align: center;
+}
+
+.Camisetas .grid-camisetas a {
+    background-color: #2b2b30;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+}
+
+.Pantalones h4 {
+    margin-top: 100px;
+    color: rgb(25, 0, 255);
+    text-align: center;
+    font-size: 15px;
+    background-color: #0bf82a;
+}
+
+.Pantalones .grid-pants {
+    display: grid;
+    padding-left: 450px;
+    padding-top: 20px;
+    padding-right: 10px;
+    grid-template-columns:  repeat(3, 1fr);
+    background-color: rgb(214, 41, 41);
+}
+
+.Pantalones .grid-pants .img4 {
+    display: grid;
+    width: 750px;
+    align-items: center; 
+}
+
+.Pantalones .grid-pants .img4 img {
+    width: 100%;
+    border-radius: 50px;
+    border-style: groove;
+}
+
+.Pantalones .grid-pants .img5 {
+    display: grid;
+    width: 750px;
+    align-items: center; 
+}
+
+.Pantalones .grid-pants .img5 img {
+    width: 100%;
+    border-radius: 50px;
+    border-style: groove;
+}
+
+.Pantalones .grid-pants .img6 {
+    display: grid;
+    width: 520px;
+    align-items: center; 
+}
+
+.Pantalones .grid-pants .img6 img {
+    width: 100%;
+    border-radius: 50px;
+    border-style: groove;
+}
+
+.Pantalones .grid-pants h5 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.Pantalones .grid-pants a {
+    font-size: 25px;
+    text-align: center;
+}
+
+/*Section 2*/
+
+
+
+/*Section 3*/
+
+
+
+/*Footer*/
+
+/*media query*/
+@media screen and (max-width:1000px){
+    .Pantalones{
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px 100px 400px 250px 150px;
+        grid-template-areas: 
+        "header header"
+        "nav nav"
+        "main aside"
+        "footer footer"
+    }
+}
+
+/*   ---- PSEUDO CLASES ----
+
+link : Se aplica a todos los elementos "a" tengan el atributo href definido y no hayan sido visitados
+.enlace:link{}
+
+visited : Esta se aplica cuando los "a" ya fueron visitados
+.enlace:visited{}
+
+hover : Se aplica a todos los elementos cuando el mouse esta posiciando sobre ellos
+.boton:hover{}
+
+active : Igual que el hover pero se aplica mientras se esta apretando el click sobre el elemento
+.boton:active{}
+
+not : Este es para cuando no queremos que algo en particular no se le aplique a un elemento
+.contenedor div:not(.caja-3){
+    display: none
+}
+
+nth-child: Para seleccionar exactamente a que elementos queremos aplicarle estilos - con "even" para de 2 en 2, "odd" para los impares, "3n" para de tres en tres
+.cajas div:nth-child(5n){
+    color: red
+}
+
+    ---- PSEUDO ELEMENTOS ----
+
+p::first-line{
+    color: black
+}
+
+p::first-letter{
+    color: #0bf82a;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p::selection{
+    background-color: aqua;
+    color: white
+}
+
+
+*/
