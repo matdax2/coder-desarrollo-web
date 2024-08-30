@@ -1,5 +1,115 @@
-h1 {
-  color: aqua;
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: #2b2b30;
+  padding-bottom: 50px;
+}
+header h1 {
+  color: #ffffff;
+  font-size: 70px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  text-align: left;
+  margin-left: 100px;
+}
+header nav ul {
+  display: flex;
+  margin-left: 900px;
+  margin-top: 50px;
+  gap: 50px;
+  list-style: none;
+}
+header nav ul li a:hover {
+  color: red;
+}
+header img {
+  margin-left: 50px;
+}
+
+span {
+  color: #0bf82a;
+}
+
+span2 {
+  color: red;
+}
+
+/*Main*/
+/*Section 1*/
+.Camisetas h2 {
+  margin-top: 50px;
+  color: rgb(5, 5, 5);
+  text-align: center;
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.Camisetas .grid-camisetas {
+  display: grid;
+  padding-left: 350px;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: aqua;
+}
+.Camisetas .grid-camisetas .img1 {
+  display: grid;
+  width: 150px;
+  align-items: center;
+}
+.Camisetas .grid-camisetas .img1 img {
+  width: 150px;
+  border-radius: 50px;
+  border-style: groove;
+}
+.Camisetas .grid-camisetas .img1 h3 {
+  font-size: 17px;
+  text-align: center;
+}
+.Camisetas .grid-camisetas .img1 a {
+  background-color: #2b2b30;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+}
+.Camisetas .grid-camisetas .img2 {
+  display: grid;
+  width: 0px;
+  align-items: center;
+}
+.Camisetas .grid-camisetas .img2 img {
+  width: 150px;
+  border-radius: 50px;
+  border-style: groove;
+}
+.Camisetas .grid-camisetas .img2 h3 {
+  font-size: 17px;
+  text-align: center;
+}
+.Camisetas .grid-camisetas .img2 a {
+  background-color: #2b2b30;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+}
+.Camisetas .grid-camisetas .img3 {
+  display: grid;
+  width: 150px;
+  align-items: center;
+}
+.Camisetas .grid-camisetas .img3 img {
+  width: 150px;
+  border-radius: 50px;
+  border-style: groove;
+}
+.Camisetas .grid-camisetas .img3 h3 {
+  font-size: 17px;
+  text-align: center;
+}
+.Camisetas .grid-camisetas .img3 a {
+  background-color: #2b2b30;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
