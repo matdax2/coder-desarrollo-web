@@ -1,0 +1,78 @@
+/*Variables
+$color-principal: black;
+$color-secundario: red;
+
+Listas
+$colores: red, blue, yellow, brown;
+$font: 25px, 50px, 60px, 70px;
+
+Ejemplo
+h1 {
+    color: nth($colores, 1);
+    font-size: nth($font, 3);
+}
+
+Operaciones
+$ancho: 750px;
+
+Ejemplo
+img {
+    width: $ancho / 2 + 40;
+}
+
+Mapas
+$boton:(
+    bg-color:black,
+    border-boton:2px solid tomato,
+    color-text: grey,
+);
+
+.boton{
+    background-color: map-get($map: $boton, $key: bg-color);
+    border-bottom: map-get($map: $boton, $key: border-boton);
+    color: map-get($map: $boton, $key: color-text )
+}
+
+%enlaces{
+    text-decoration; none;
+    color: blue;
+}
+
+.boton{
+    background-color: aqua;
+    border:solid 2px yellow;
+    @extend %enlances;
+}
+
+Mixin
+
+@mixin flex($flex, $justify, $align, $direction){
+    display: $flex;
+    justify-content: $justify;
+    align-items :$align;
+    flex-direction: $direction;
+}
+
+.galeria{
+    @include flex(flex, space-around, center, column)
+}
+
+.galeria2{
+    @include flex(flex, center, center, row)
+}
+
+Condicionales
+
+@mixin modos ($modo){
+    @if $modo == black{
+        border: solid 2px blue;
+    }
+    @else{
+        border: solid 2px yellow;
+    }
+
+bg-elemento{
+    @include modos (black);
+}
+
+*/
