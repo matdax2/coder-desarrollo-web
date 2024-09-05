@@ -23,7 +23,7 @@ header {
 
 header nav ul {
     display: flex;
-    margin-left: 900px;
+    margin-left: 800px;
     margin-top: 50px;
     gap: 50px;   
     list-style: none;
@@ -56,9 +56,9 @@ header h1 span2 {
 
 /*Main*/
 
-/*Section 1*/
+/*Ropa html Section 1*/
 
-.Camisetas h2 {
+.Camisetas h1 {
     margin-top: 50px;
     color: rgb(5, 5, 5);
     text-align: center;
@@ -112,7 +112,7 @@ header h1 span2 {
     border-style: groove;
 }
 
-.Camisetas .grid-camisetas h3 {
+.Camisetas .grid-camisetas h2 {
     font-size: 17px;
     text-align: center;
 }
@@ -129,82 +129,147 @@ header h1 span2 {
     font-size: 15px;
 }
 
-.Pantalones h4 {
-    margin-top: 100px;
-    color: rgb(25, 0, 255);
+/*Ropa html Section 2*/
+
+.Pantalones h1 {
+    margin-top: 50px;
+    color: rgb(5, 5, 5);
     text-align: center;
-    font-size: 15px;
-    background-color: #0bf82a;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .Pantalones .grid-pants {
     display: grid;
-    padding-left: 450px;
+    padding-left: 350px;
     padding-top: 20px;
     padding-right: 10px;
-    grid-template-columns:  repeat(3, 1fr);
-    background-color: rgb(214, 41, 41);
+    padding-bottom: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: aqua;
 }
 
 .Pantalones .grid-pants .img4 {
     display: grid;
-    width: 750px;
-    align-items: center; 
+    width: 150px;
+    align-items: center;        
 }
 
 .Pantalones .grid-pants .img4 img {
-    width: 100%;
+    width: 150px;
     border-radius: 50px;
     border-style: groove;
 }
 
 .Pantalones .grid-pants .img5 {
     display: grid;
-    width: 750px;
+    width: 150px;
     align-items: center; 
 }
 
 .Pantalones .grid-pants .img5 img {
-    width: 100%;
+    width: 150px;
     border-radius: 50px;
     border-style: groove;
 }
 
 .Pantalones .grid-pants .img6 {
     display: grid;
-    width: 520px;
+    width: 150px;
     align-items: center; 
 }
 
 .Pantalones .grid-pants .img6 img {
-    width: 100%;
+    width: 150px;
     border-radius: 50px;
     border-style: groove;
 }
 
-.Pantalones .grid-pants h5 {
+.Pantalones .grid-pants h2 {
     font-size: 25px;
     text-align: center;
 }
 
 .Pantalones .grid-pants a {
+    background-color: #2b2b30;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+}
+
+/*Ropa html Section 3*/
+
+.Zapatillas h1{
+    margin-top: 50px;
+    color: rgb(5, 5, 5);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Zapatillas .grid-zapas {
+    display: grid;
+    padding-left: 350px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: aqua;
+}
+
+.Zapatillas .grid-zapas .img7 {
+    display: grid;
+    width: 150px;
+    align-items: center;        
+}
+
+.Zapatillas .grid-zapas .img7 img {
+    width: 150px;
+    border-radius: 50px;
+    border-style: groove;
+}
+
+.Zapatillas .grid-zapas .img8 {
+    display: grid;
+    width: 150px;
+    align-items: center; 
+}
+
+.Zapatillas .grid-zapas .img8 img {
+    width: 150px;
+    border-radius: 50px;
+    border-style: groove;
+}
+
+.Zapatillas .grid-zapas .img9 {
+    display: grid;
+    width: 150px;
+    align-items: center; 
+}
+
+.Zapatillas .grid-zapas .img9 img {
+    width: 150px;
+    border-radius: 50px;
+    border-style: groove;
+}
+
+.Zapatillas .grid-zapas h2 {
     font-size: 25px;
     text-align: center;
 }
 
-/*Section 2*/
+.Zapatillas .grid-zapas a {
+    background-color: #2b2b30;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+}
+
+/*Ropa html Footer*/
 
 
 
-/*Section 3*/
-
-
-
-/*Footer*/
-
-
-
-/*media query*/
+/*Ropa html media query*/
 @media screen and (max-width:1000px){
     .Pantalones{
         grid-template-columns: 1fr;
@@ -215,6 +280,117 @@ header h1 span2 {
         "main aside"
         "footer footer"
     }
+}
+
+/*Producto html Section 1*/
+
+.Verano h1{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.Verano .grid-verano{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+    background-image: url(../img/playa.jpg);
+    padding-top: 100px;
+    padding-bottom: 200px;  
+    background-size: cover;
+    padding-left: 200px;
+    text-align: center;
+}
+
+.Verano .grid-verano .img1 img{
+    width: 400px;
+}
+
+.Verano .grid-verano .img2 img{
+    width: 380px;
+}
+
+.Verano .grid-verano .img3 img{
+    width: 400px;
+}
+
+.Verano .grid-verano .boton{
+    background-color: #291311;
+    color: white;
+    padding: 15px;
+    transition: background-color 0.3s, transform 0.2s;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.Verano .grid-verano .boton:hover{
+    background-color: #e6554f;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.Verano .grid-verano .boton:active{
+    background-color: #cc4a46;
+    transform: translateY(1px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/*Productos html Section 2*/
+
+.Invierno h1{
+    text-align: center;
+    font-size: 50px;
+    color: aqua;
+    background-color: #291311;
+}
+
+.Invierno .grid-invierno{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(../img/1920x1080-winter-desktop-rbfbye5o80z7bcm5.jpg);
+    padding-top: 50px;
+    padding-bottom: 200px;  
+    background-size: cover;
+    text-align: center;
+}
+
+.Invierno .grid-invierno .img1 img{
+    width: 300px;
+}
+
+.Invierno .grid-invierno .img2 img{
+    width: 400px;
+}
+
+.Invierno .grid-invierno .img3 img{
+    width: 220px;
+}
+
+.Invierno .grid-invierno .boton{
+    background-color: #291311;
+    color: white;
+    padding: 15px;
+    transition: background-color 0.3s, transform 0.2s;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.Invierno .grid-invierno .boton:hover{
+    background-color: #e6554f;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.Invierno .grid-invierno .boton:active{
+    background-color: #cc4a46;
+    transform: translateY(1px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 /*   ---- PSEUDO CLASES ----
