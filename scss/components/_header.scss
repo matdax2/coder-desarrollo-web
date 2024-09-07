@@ -1,8 +1,5 @@
 header {
-    display: flex;
-    flex-direction: row;
     background-color: #2b2b30;
-    padding-bottom: 50px;
 
 
     h1 {
@@ -16,13 +13,16 @@ header {
     nav {
         ul {
             display: flex;
-            margin-left: 900px;
-            margin-top: 50px;
-            gap: 50px;
-            list-style: none;
+            justify-content: flex-end;  
+            list-style: none;    
+            font-size: 20px;
+            font-weight: bold;
 
             li {
                 a {
+                    text-decoration: none;
+                    color: #ffffff;
+                    padding-right: 50px;
                     &:hover{
                         color: red
                         }

@@ -11,10 +11,7 @@ body {
 
 /*aca va boostrap*/
 header {
-  display: flex;
-  flex-direction: row;
   background-color: #2b2b30;
-  padding-bottom: 50px;
 }
 header h1 {
   color: #ffffff;
@@ -25,10 +22,15 @@ header h1 {
 }
 header nav ul {
   display: flex;
-  margin-left: 900px;
-  margin-top: 50px;
-  gap: 50px;
+  justify-content: flex-end;
   list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding-right: 50px;
 }
 header nav ul li a:hover {
   color: red;
@@ -45,7 +47,8 @@ span2 {
   color: red;
 }
 
-.Camisetas h2 {
+/*Ropa html Section 1*/
+.Camisetas h1 {
   margin-top: 50px;
   color: rgb(5, 5, 5);
   text-align: center;
@@ -59,6 +62,7 @@ span2 {
   padding-right: 10px;
   padding-bottom: 20px;
   grid-template-columns: repeat(3, 1fr);
+  background-color: aqua;
 }
 .Camisetas .grid-camisetas .img1 {
   display: grid;
@@ -70,7 +74,7 @@ span2 {
   border-radius: 50px;
   border-style: groove;
 }
-.Camisetas .grid-camisetas .img1 h3 {
+.Camisetas .grid-camisetas .img1 h2 {
   font-size: 17px;
   text-align: center;
 }
@@ -79,6 +83,27 @@ span2 {
   color: #ffffff;
   text-align: center;
   font-size: 15px;
+}
+.Camisetas .grid-camisetas .img1 .boton {
+  background-color: #291311;
+  color: white;
+  padding: 15px;
+  transition: background-color 0.3s, transform 0.2s;
+  border-radius: 30px;
+  font-weight: bold;
+  margin-top: 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.Camisetas .grid-camisetas .img1 .boton:hover {
+  background-color: #e6554f;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.Camisetas .grid-camisetas .img1 .boton:active {
+  background-color: #cc4a46;
+  transform: translateY(1px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 .Camisetas .grid-camisetas .img2 {
   display: grid;
@@ -90,7 +115,7 @@ span2 {
   border-radius: 50px;
   border-style: groove;
 }
-.Camisetas .grid-camisetas .img2 h3 {
+.Camisetas .grid-camisetas .img2 h2 {
   font-size: 17px;
   text-align: center;
 }
@@ -99,6 +124,27 @@ span2 {
   color: #ffffff;
   text-align: center;
   font-size: 15px;
+}
+.Camisetas .grid-camisetas .img2 .boton {
+  background-color: #291311;
+  color: white;
+  padding: 15px;
+  transition: background-color 0.3s, transform 0.2s;
+  border-radius: 30px;
+  font-weight: bold;
+  margin-top: 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.Camisetas .grid-camisetas .img2 .boton:hover {
+  background-color: #e6554f;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.Camisetas .grid-camisetas .img2 .boton:active {
+  background-color: #cc4a46;
+  transform: translateY(1px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 .Camisetas .grid-camisetas .img3 {
   display: grid;
@@ -110,7 +156,7 @@ span2 {
   border-radius: 50px;
   border-style: groove;
 }
-.Camisetas .grid-camisetas .img3 h3 {
+.Camisetas .grid-camisetas .img3 h2 {
   font-size: 17px;
   text-align: center;
 }
@@ -119,6 +165,99 @@ span2 {
   color: #ffffff;
   text-align: center;
   font-size: 15px;
+}
+.Camisetas .grid-camisetas .img3 .boton {
+  background-color: #291311;
+  color: white;
+  padding: 15px;
+  transition: background-color 0.3s, transform 0.2s;
+  border-radius: 30px;
+  font-weight: bold;
+  margin-top: 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.Camisetas .grid-camisetas .img3 .boton:hover {
+  background-color: #e6554f;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.Camisetas .grid-camisetas .img3 .boton:active {
+  background-color: #cc4a46;
+  transform: translateY(1px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/*Ropa html Section 2*/
+.Pantalones h1 {
+  margin-top: 50px;
+  color: rgb(5, 5, 5);
+  text-align: center;
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-s;
+}
+.Pantalones .grid-pants {
+  display: grid;
+  padding-left: 350px;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: aqua;
+}
+.Pantalones .grid-pants .img4 {
+  display: grid;
+  width: 150px;
+  align-items: center;
+}
+.Pantalones .grid-pants .img4 img {
+  width: 150px;
+  border-radius: 50px;
+  border-style: groove;
+}
+.Pantalones .grid-pants .img4 h2 {
+  font-size: 25px;
+  text-align: center;
+}
+.Pantalones .grid-pants .img4 a {
+  font-size: 15px;
+  text-align: center;
+}
+.Pantalones .grid-pants .img5 {
+  display: grid;
+  width: 150px;
+  align-items: center;
+}
+.Pantalones .grid-pants .img5 img {
+  width: 150px;
+  border-radius: 50px;
+  border-style: groove;
+}
+.Pantalones .grid-pants .img5 h2 {
+  font-size: 25px;
+  text-align: center;
+}
+.Pantalones .grid-pants .img5 a {
+  font-size: 15px;
+  text-align: center;
+}
+.Pantalones .img6 {
+  display: grid;
+  width: 150px;
+  align-items: center;
+}
+.Pantalones .img6 img {
+  width: 150px;
+  border-radius: 50px;
+  border-style: groove;
+}
+.Pantalones .img6 h2 {
+  font-size: 25px;
+  text-align: center;
+}
+.Pantalones .img6 a {
+  font-size: 15px;
+  text-align: center;
 }
 
 @media screen and (max-width: 1000px) {

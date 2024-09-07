@@ -135,6 +135,7 @@ header h1 span2 {
     font-weight: bold;
     margin-top: 15px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .Camisetas .grid-camisetas .boton:hover{
@@ -168,6 +169,11 @@ header h1 span2 {
     padding-bottom: 20px;
     grid-template-columns: repeat(3, 1fr);
     background-color: aqua;
+}
+
+.Pantalones .grid-pants a {
+    font-size: 15px;
+    text-align: center;
 }
 
 .Pantalones .grid-pants .img4 {
@@ -220,6 +226,7 @@ header h1 span2 {
     font-weight: bold;
     margin-top: 15px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .Pantalones .grid-pants .boton:hover{
@@ -253,6 +260,11 @@ header h1 span2 {
     padding-bottom: 20px;
     grid-template-columns: repeat(3, 1fr);
     background-color: aqua;
+}
+
+.Zapatillas .grid-zapas a {
+    font-size: 15px;
+    text-align: center;
 }
 
 .Zapatillas .grid-zapas .img7 {
@@ -304,6 +316,7 @@ header h1 span2 {
     font-weight: bold;
     margin-top: 15px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .Zapatillas .grid-zapas .boton:hover{
