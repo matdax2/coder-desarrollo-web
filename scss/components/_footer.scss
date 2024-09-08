@@ -1,0 +1,15 @@
+footer{
+    a{
+        display: flex;
+        justify-content: center;
+        color: #291311;
+        padding: 10px;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 30px;
+        &:hover{
+            color: #cc4a46;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+    }
+}
