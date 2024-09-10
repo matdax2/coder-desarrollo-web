@@ -515,10 +515,30 @@ footer a:hover{
 }
 
 
-/*Bootstrap index*/
+/*Bootstrap*/
+
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
 
 .card img{
-    width: 100px;
+    width: 270px;
+}
+
+.card .lavadora{
+    width: 300px;
+}
+
+.card .micro{
+    width: 200px;
+}
+
+.carrusel{
+    display: flex;
+    width: 400px;
+    max-width: 600px;
 }
 
 /*Compra*/

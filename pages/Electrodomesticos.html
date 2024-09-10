@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <!--Description SEO-->
     <meta name="description" content="">
     <!--Keywords-->
@@ -14,29 +20,105 @@
     <meta property="og:url" content="">
     <meta property="description" content="">
     <meta property="og:image" content="">
-    <title>Pago</title>
+    <title>Electrodomesticos</title>
 </head>
- 
+
 
 <body>
 
-    <header>
-        <nav>           <!--Enlaces relativos-->
+    <header id="arriba">
+        <h1><span>Temu</span>d<span2>o</span2>nt</h1>
+        <nav> <!--Enlaces relativos-->
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="../pages/Nosotros.html">Nosotros</a></li>
-                <li><a href="../pages/Productos.html">Productos varios</a></li>            
                 <li><a href="../pages/Ropa.html">Prendas de vestir</a></li>
-            </ul>          
-            <img src="img/mono.png" alt="">
-            <img src="img/trajes-de-bano.png" alt="">
-            <img src="img/camiseta-de-manga-corta.png" alt="">
+                <li><a href="../pages/Electrodomesticos.html">Electrodomesticos</a></li>
+            </ul>
+            <img src="../img/mono.png" alt="">
+            <img src="../img/trajes-de-bano.png" alt="">
+            <img src="../img/camiseta-de-manga-corta.png" alt="">
         </nav>
-     </header>
+    </header>
 
+    <main>
+
+        <section class="contenedor">
+
+            <div class="card" style="width: 20rem;">
+                <img src="/img/cocina.jpg" class="card-img-top" alt="Cocina combinada futura plus">
+                <div class="card-body">
+                    <h5 class="card-title">Cocina</h5>
+                    <p class="card-text">Cocina combinada Futura Plus FUT-60CM4X</p>
+                    <a href="/pages/Compra electrodomesticos.html" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 20rem;">
+                <img class="lavadora" src="/img/lavadora.jpg" class="card-img-top" alt="lavadora Infiniton">
+                <div class="card-body">
+                    <h5 class="card-title">Lavadora</h5>
+                    <p class="card-text">Lavadora Infiniton WM-61D 6 kg 1000 rpm d 15 programas función easy play</p>
+                    <a href="/pages/Compra electrodomesticos.html" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 20rem;">
+                <img class="micro" src="/img/microoondas.jpg" class="card-img-top" alt="microonda panavox con grill">
+                <div class="card-body">
+                    <h5 class="card-title">Microondas</h5>
+                    <p class="card-text">Microondas PANAVOX 9028 con Grill 28L y timer</p>
+                    <a href="/pages/Compra electrodomesticos.html" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="carrusel mx-auto">
+
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/img/aspiradora robot.jpg" class="d-block w-100" alt="...">
+                    <h5>Aspiradora robot</h5>
+                    <p>
+                        Aspiradora Robot ABIR X8 WELINK 32W Control Remoto
+                    </p>
+                    <a href="/pages/Compra electrodomesticos.html" class="btn btn-primary">Comprar</a>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/img/Aspiradora-XION-Mod-XI-VC1500-1500w-0.jpg" class="d-block w-100" alt="...">
+                    <h5>Aspiradora</h5>
+                    <p>
+                        Aspiradora XION Mod. XI-VC1500 1500w
+                    </p>
+                    <a href="/pages/Compra electrodomesticos.html" class="btn btn-primary">Comprar</a>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/img/estufa.jpg" class="d-block w-100" alt="...">
+                    <h5>Estufa electrica</h5>
+                    <p>
+                        Estufa PANAVOX Halógena 120Y2 gris
+                    </p>
+                    <a href="/pages/Compra electrodomesticos.html" class="btn btn-primary">Comprar</a>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+                  <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="false"></span>
+                  <span class="visually-hidden">Siguiente</span>
+                </button>
+              </div>
+
+        </section>
+    </main>
 
     <footer>
         <a href="#arriba">Volver</a>
     </footer>
 </body>
+
 </html>
