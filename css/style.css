@@ -514,6 +514,35 @@ footer a:hover{
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
+/*index*/
+
+.inicio{
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 10px; 
+    text-align: center;
+}
+
+.inicio h1{
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.inicio p{
+    font-size: 20px;
+}
+
+.info p{
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #13e47c;
+    padding: 20px;
+    border-radius: 10px; 
+}
+
 
 /*Bootstrap*/
 
