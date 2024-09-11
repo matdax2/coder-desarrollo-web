@@ -1,11 +1,97 @@
-@media screen and (max-width:1000px){
-    .Pantalones{
+
+@media screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+    }
+
+    header nav ul li a {
+        padding: 10px 0;
+        padding-left: 10px;
+        font-size: 18px;
+    }
+
+    header h1 {
+        font-size: 40px;
+        margin-left: 20px;
+    }
+
+    .Camisetas .grid-camisetas,
+    .Pantalones .grid-pants,
+    .Zapatillas .grid-zapas {
         grid-template-columns: 1fr;
-        grid-template-rows: 200px 100px 400px 250px 150px;
-        grid-template-areas: 
-        "header header"
-        "nav nav"
-        "main aside"
-        "footer footer"
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: transparent; /* Opcional: elimina el fondo */
+    }
+
+    .Camisetas .grid-camisetas .img1,
+    .Camisetas .grid-camisetas .img2,
+    .Camisetas .grid-camisetas .img3,
+    .Pantalones .grid-pants .img4,
+    .Pantalones .grid-pants .img5,
+    .Pantalones .grid-pants .img6,
+    .Zapatillas .grid-zapas .img7,
+    .Zapatillas .grid-zapas .img8,
+    .Zapatillas .grid-zapas .img9 {
+        width: 100%;
+        justify-content: center;
+    }
+
+    
+    .Verano .grid-verano,
+    .Invierno .grid-invierno {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .inicio h1 {
+        font-size: 40px;
+    }
+
+    .inicio p,
+    .info p {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 18px;
+    }
+
+    .contenedor {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card img,
+    .card .lavadora,
+    .card .micro {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .titulo {
+        font-size: 50px;
+    }
+
+    .confirmacion {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .confirmacion .no,
+    .confirmacion .si {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 80%;
+        text-align: center;
     }
 }
+
+
+

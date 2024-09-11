@@ -514,7 +514,7 @@ footer a:hover{
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
-/*index*/
+/*Index*/
 
 .inicio{
     margin-top: 60px;
@@ -533,6 +533,12 @@ footer a:hover{
 
 .inicio p{
     font-size: 20px;
+}
+
+.info h1{
+    margin-left: 40px;
+    font-style: oblique;
+    font-weight: bolder;
 }
 
 .info p{
@@ -568,6 +574,7 @@ footer a:hover{
     display: flex;
     width: 400px;
     max-width: 600px;
+    background-color: rgba(245, 164, 164, 0.685); 
 }
 
 /*Compra*/

@@ -831,6 +831,116 @@ span2 {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
+/*Index*/
+/*Index section 1*/
+.inicio {
+  margin-top: 60px;
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: #f0f8ff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.inicio h1 {
+  font-size: 60px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.inicio p {
+  font-size: 20px;
+}
+
+/*Index section 2*/
+.info h1 {
+  margin-left: 40px;
+  font-style: oblique;
+  font-weight: bolder;
+}
+.info p {
+  margin-left: 80px;
+  margin-right: 80px;
+  background-color: #13e47c;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/*Bootstrap electrodomesticos*/
+/*Bootstrap electrodomesticos Section 1*/
+.contenedor {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.contenedor .card img {
+  width: 270px;
+}
+.contenedor .card .lavadora {
+  width: 300px;
+}
+.contenedor .card .micro {
+  width: 200px;
+}
+
+/*Bootstrap electrodomesticos Section 2*/
+.carrusel {
+  display: flex;
+  width: 400px;
+  max-width: 600px;
+  background-color: rgba(245, 164, 164, 0.685);
+}
+
+/*Compra*/
+.confirmacion {
+  display: flex;
+  font-size: 35px;
+  margin-top: 50px;
+  justify-content: center;
+}
+.confirmacion .no {
+  text-decoration: none;
+  background-color: #291311;
+  color: white;
+  padding: 15px;
+  transition: background-color 0.3s, transform 0.2s;
+  border-radius: 30px;
+  font-weight: bold;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.confirmacion .no:hover {
+  background-color: #e6554f;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.confirmacion .no:active {
+  background-color: #cc4a46;
+  transform: translateY(1px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.confirmacion .si {
+  margin-left: 100px;
+  margin-right: 100px;
+  text-decoration: none;
+  background-color: #291311;
+  color: white;
+  padding: 15px;
+  transition: background-color 0.3s, transform 0.2s;
+  border-radius: 30px;
+  font-weight: bold;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.confirmacion .si:hover {
+  background-color: #e6554f;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.confirmacion .si:active {
+  background-color: #cc4a46;
+  transform: translateY(1px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
 footer a {
   display: flex;
   justify-content: center;
@@ -845,11 +955,83 @@ footer a:hover {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
-@media screen and (max-width: 1000px) {
-  .Pantalones {
+@media screen and (max-width: 600px) {
+  header {
+    padding: 10px;
+  }
+  header nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+  }
+  header nav ul li a {
+    padding: 10px 0;
+    padding-left: 10px;
+    font-size: 18px;
+  }
+  header h1 {
+    font-size: 40px;
+    margin-left: 20px;
+  }
+  .Camisetas .grid-camisetas,
+  .Pantalones .grid-pants,
+  .Zapatillas .grid-zapas {
     grid-template-columns: 1fr;
-    grid-template-rows: 200px 100px 400px 250px 150px;
-    grid-template-areas: "header header" "nav nav" "main aside" "footer footer";
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: transparent; /* Opcional: elimina el fondo */
+  }
+  .Camisetas .grid-camisetas .img1,
+  .Camisetas .grid-camisetas .img2,
+  .Camisetas .grid-camisetas .img3,
+  .Pantalones .grid-pants .img4,
+  .Pantalones .grid-pants .img5,
+  .Pantalones .grid-pants .img6,
+  .Zapatillas .grid-zapas .img7,
+  .Zapatillas .grid-zapas .img8,
+  .Zapatillas .grid-zapas .img9 {
+    width: 100%;
+    justify-content: center;
+  }
+  .Verano .grid-verano,
+  .Invierno .grid-invierno {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .inicio h1 {
+    font-size: 40px;
+  }
+  .inicio p,
+  .info p {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  .contenedor {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card img,
+  .card .lavadora,
+  .card .micro {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  .titulo {
+    font-size: 50px;
+  }
+  .confirmacion {
+    flex-direction: column;
+    align-items: center;
+  }
+  .confirmacion .no,
+  .confirmacion .si {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: 80%;
+    text-align: center;
   }
 }
 
