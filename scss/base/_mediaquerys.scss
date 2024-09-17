@@ -1,4 +1,80 @@
 
+@media screen and (max-width: 1024px) {
+    header {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 44px;
+    }
+
+    .Camisetas .grid-camisetas,
+    .Pantalones .grid-pants,
+    .Zapatillas .grid-zapas {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .Verano .grid-verano,
+    .Invierno .grid-invierno {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 42px;
+        margin-left: 10px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header nav ul li a {
+        padding: 10px 0;
+        padding-left: 10px;
+        font-size: 18px;
+    }
+
+    .Camisetas .grid-camisetas,
+    .Pantalones .grid-pants,
+    .Zapatillas .grid-zapas {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .inicio h1 {
+        font-size: 38px;
+    }
+
+    .inicio p,
+    .info p {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 16px;
+    }
+
+    .card img,
+    .card .lavadora,
+    .card .micro {
+        width: 90%;
+    }
+
+    .titulo {
+        font-size: 45px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     header {
         padding: 10px;
@@ -43,7 +119,6 @@
         justify-content: center;
     }
 
-    
     .Verano .grid-verano,
     .Invierno .grid-invierno {
         flex-direction: column;
@@ -92,6 +167,3 @@
         text-align: center;
     }
 }
-
-
-
