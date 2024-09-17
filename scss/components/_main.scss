@@ -899,7 +899,6 @@
     text-align: center;
 
     h1{
-        font-size: 60px;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 
@@ -916,12 +915,32 @@
         margin-left: 40px;
         font-style: oblique;
         font-weight: bolder;
+        padding-top: 20px;
     }    
-        
+    
+    .service1{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        background-color: #13e47c;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        max-width: 600px;
+    }
+
+    .service2{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        background-color: #7cc2ad;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        max-width: 600px;
+    }
+
     p{
         margin-left: 80px;
-        margin-right: 80px;
-        background-color: #13e47c;
+        margin-right: 80px;        
         padding: 20px;
         border-radius: 10px; 
     }

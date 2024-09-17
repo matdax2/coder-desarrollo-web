@@ -16,7 +16,6 @@ body {
 
 header {
     background-color: #2b2b30;
-
 }
 
 header nav ul {
@@ -46,8 +45,7 @@ header h1 {
     font-size: 70px;
     font-family: Georgia, Times, 'Times New Roman', serif;
     text-align: left;
-    margin-left: 100px;
-    
+    margin-left: 100px;  
 }
 
 header h1 span {

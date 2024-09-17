@@ -1,4 +1,11 @@
+/* Variables */
+/* Listas */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.inicio h1 {
+  color: red;
+  font-size: 70px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -843,7 +850,6 @@ span2 {
   text-align: center;
 }
 .inicio h1 {
-  font-size: 60px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 .inicio p {
@@ -855,11 +861,29 @@ span2 {
   margin-left: 40px;
   font-style: oblique;
   font-weight: bolder;
+  padding-top: 20px;
+}
+.info .service1 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: #13e47c;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  max-width: 600px;
+}
+.info .service2 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: #7cc2ad;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  max-width: 600px;
 }
 .info p {
   margin-left: 80px;
   margin-right: 80px;
-  background-color: #13e47c;
   padding: 20px;
   border-radius: 10px;
 }
@@ -979,7 +1003,7 @@ footer a:hover {
     grid-template-columns: 1fr;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: transparent; /* Opcional: elimina el fondo */
+    background-color: transparent;
   }
   .Camisetas .grid-camisetas .img1,
   .Camisetas .grid-camisetas .img2,

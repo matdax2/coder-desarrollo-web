@@ -1,0 +1,15 @@
+
+/* Variables */
+
+$color-principal: black;
+$color-secundario: red;
+
+/* Listas */
+
+$colores: blue, green, yellow, aquamarine, white, skyblue;
+$font-size: 20px, 35px, 50px, 70px;
+
+.inicio h1{
+    color: $color-secundario;
+    font-size: nth($font-size, 4);
+}
