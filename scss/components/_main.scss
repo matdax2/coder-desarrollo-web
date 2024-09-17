@@ -907,7 +907,7 @@
     }
 }
 
-/*Index section 2*/
+/*Nosotros section 1*/
 
 .info{
 
@@ -916,9 +916,12 @@
         font-style: oblique;
         font-weight: bolder;
         padding-top: 20px;
+        font-size: nth($font-size, 3);
+        padding-bottom: 30px;
+        text-decoration: underline;
     }    
     
-    .service1{
+    .service-1{
         display: grid;
         justify-content: center;
         align-items: center;
@@ -928,7 +931,7 @@
         max-width: 600px;
     }
 
-    .service2{
+    .service-2{
         display: grid;
         justify-content: center;
         align-items: center;
@@ -938,12 +941,63 @@
         max-width: 600px;
     }
 
+    .service-3{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        background-color: #186fc0;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        max-width: 600px;
+    }
+
+    .service-4{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        background-color: #083628e0;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        max-width: 600px;
+    }
+
+
+
     p{
         margin-left: 80px;
         margin-right: 80px;        
         padding: 20px;
         border-radius: 10px; 
+        font-size: nth($font-size, 1);
     }
+
+    
+}
+
+/* Nosotros Section 2 */
+
+.objetivo{  
+
+    h1{
+        display: grid;
+        justify-content: center;
+        font-size: nth($font-size, 3);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-decoration: underline;
+    }
+
+    p{
+        font-size: nth($font-size, 1); 
+        background-color: #e6554f;
+        border: 2px solid #3498db; /* Color y grosor del borde */
+        padding: 20px; /* Espaciado interno (padding) */
+        border-radius: 8px; /* Bordes redondeados */
+        max-width: 600px; /* Ancho máximo del recuadro */
+        margin: 20px auto;
+    }
+    
+
+
 }
 
 /*Bootstrap electrodomesticos*/
@@ -981,6 +1035,12 @@
 }
 
 /*Compra*/
+
+.titulo{
+    display: flex;
+    font-size: 80px;
+    justify-content: center;
+}
 
 .confirmacion{
     display: flex;

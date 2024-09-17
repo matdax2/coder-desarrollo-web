@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Variables */
 /* Listas */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
@@ -856,14 +857,17 @@ span2 {
   font-size: 20px;
 }
 
-/*Index section 2*/
+/*Nosotros section 1*/
 .info h1 {
   margin-left: 40px;
   font-style: oblique;
   font-weight: bolder;
   padding-top: 20px;
+  font-size: 50px;
+  padding-bottom: 30px;
+  text-decoration: underline;
 }
-.info .service1 {
+.info .service-1 {
   display: grid;
   justify-content: center;
   align-items: center;
@@ -872,11 +876,29 @@ span2 {
   font-size: 20px;
   max-width: 600px;
 }
-.info .service2 {
+.info .service-2 {
   display: grid;
   justify-content: center;
   align-items: center;
   background-color: #7cc2ad;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  max-width: 600px;
+}
+.info .service-3 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: #186fc0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  max-width: 600px;
+}
+.info .service-4 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(8, 54, 40, 0.8784313725);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 20px;
   max-width: 600px;
@@ -886,6 +908,25 @@ span2 {
   margin-right: 80px;
   padding: 20px;
   border-radius: 10px;
+  font-size: 20px;
+}
+
+/* Nosotros Section 2 */
+.objetivo h1 {
+  display: grid;
+  justify-content: center;
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-decoration: underline;
+}
+.objetivo p {
+  font-size: 20px;
+  background-color: #e6554f;
+  border: 2px solid #3498db; /* Color y grosor del borde */
+  padding: 20px; /* Espaciado interno (padding) */
+  border-radius: 8px; /* Bordes redondeados */
+  max-width: 600px; /* Ancho máximo del recuadro */
+  margin: 20px auto;
 }
 
 /*Bootstrap electrodomesticos*/
@@ -914,6 +955,12 @@ span2 {
 }
 
 /*Compra*/
+.titulo {
+  display: flex;
+  font-size: 80px;
+  justify-content: center;
+}
+
 .confirmacion {
   display: flex;
   font-size: 35px;
