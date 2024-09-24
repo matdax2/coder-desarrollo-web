@@ -1061,8 +1061,7 @@ footer a:hover {
     align-items: flex-start;
   }
   header nav ul li a {
-    padding: 10px 0;
-    padding-left: 10px;
+    padding: 10px 0 10px 10px;
     font-size: 18px;
   }
   .Camisetas .grid-camisetas,
@@ -1074,9 +1073,8 @@ footer a:hover {
     font-size: 38px;
   }
   .inicio p,
-  .info p {
-    margin-left: 10px;
-    margin-right: 10px;
+  .inicio .info p {
+    margin: 0 10px;
     font-size: 16px;
   }
   .card img,
@@ -1098,8 +1096,7 @@ footer a:hover {
     padding: 0;
   }
   header nav ul li a {
-    padding: 10px 0;
-    padding-left: 10px;
+    padding: 10px 0 10px 10px;
     font-size: 18px;
   }
   header h1 {
@@ -1110,16 +1107,33 @@ footer a:hover {
   .Pantalones .grid-pants,
   .Zapatillas .grid-zapas {
     grid-template-columns: 1fr;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0 20px;
     background-color: transparent;
   }
   .Camisetas .grid-camisetas .img1,
   .Camisetas .grid-camisetas .img2,
   .Camisetas .grid-camisetas .img3,
+  .Camisetas .grid-camisetas .img4,
+  .Camisetas .grid-camisetas .img5,
+  .Camisetas .grid-camisetas .img6,
+  .Camisetas .grid-camisetas .img7,
+  .Camisetas .grid-camisetas .img8,
+  .Camisetas .grid-camisetas .img9,
+  .Pantalones .grid-pants .img1,
+  .Pantalones .grid-pants .img2,
+  .Pantalones .grid-pants .img3,
   .Pantalones .grid-pants .img4,
   .Pantalones .grid-pants .img5,
   .Pantalones .grid-pants .img6,
+  .Pantalones .grid-pants .img7,
+  .Pantalones .grid-pants .img8,
+  .Pantalones .grid-pants .img9,
+  .Zapatillas .grid-zapas .img1,
+  .Zapatillas .grid-zapas .img2,
+  .Zapatillas .grid-zapas .img3,
+  .Zapatillas .grid-zapas .img4,
+  .Zapatillas .grid-zapas .img5,
+  .Zapatillas .grid-zapas .img6,
   .Zapatillas .grid-zapas .img7,
   .Zapatillas .grid-zapas .img8,
   .Zapatillas .grid-zapas .img9 {
@@ -1136,9 +1150,8 @@ footer a:hover {
     font-size: 40px;
   }
   .inicio p,
-  .info p {
-    margin-left: 10px;
-    margin-right: 10px;
+  .inicio .info p {
+    margin: 0 10px;
     font-size: 18px;
   }
   .contenedor {
@@ -1160,9 +1173,7 @@ footer a:hover {
   }
   .confirmacion .no,
   .confirmacion .si {
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 10px;
+    margin: 0 0 10px;
     width: 80%;
     text-align: center;
   }

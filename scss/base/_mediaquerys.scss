@@ -1,169 +1,171 @@
 
 @media screen and (max-width: 1024px) {
     header {
-        padding: 15px;
-    }
-
-    header h1 {
+      padding: 15px;
+  
+      h1 {
         font-size: 44px;
+      }
     }
-
+  
     .Camisetas .grid-camisetas,
     .Pantalones .grid-pants,
     .Zapatillas .grid-zapas {
-        grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(2, 1fr);
     }
-
+  
     .Verano .grid-verano,
     .Invierno .grid-invierno {
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
     }
-
+  
     .titulo {
-        font-size: 40px;
+      font-size: 40px;
     }
-}
-
-@media screen and (max-width: 768px) {
+  }
+  
+  @media screen and (max-width: 768px) {
     header {
-        padding: 10px;
-    }
-
-    header h1 {
+      padding: 10px;
+  
+      h1 {
         font-size: 42px;
         margin-left: 10px;
-    }
-
-    header nav ul {
+      }
+  
+      nav ul {
         flex-direction: column;
         align-items: flex-start;
+  
+        li a {
+          padding: 10px 0 10px 10px;
+          font-size: 18px;
+        }
+      }
     }
-
-    header nav ul li a {
-        padding: 10px 0;
-        padding-left: 10px;
-        font-size: 18px;
-    }
-
+  
     .Camisetas .grid-camisetas,
     .Pantalones .grid-pants,
     .Zapatillas .grid-zapas {
-        grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(2, 1fr);
     }
-
-    .inicio h1 {
+  
+    .inicio {
+      h1 {
         font-size: 38px;
-    }
-
-    .inicio p,
-    .info p {
-        margin-left: 10px;
-        margin-right: 10px;
+      }
+  
+      p,
+      .info p {
+        margin: 0 10px;
         font-size: 16px;
+      }
     }
-
-    .card img,
-    .card .lavadora,
-    .card .micro {
+  
+    .card {
+      img,
+      .lavadora,
+      .micro {
         width: 90%;
+      }
     }
-
+  
     .titulo {
-        font-size: 45px;
+      font-size: 45px;
     }
-}
-
-@media screen and (max-width: 600px) {
+  }
+  
+  @media screen and (max-width: 600px) {
     header {
-        padding: 10px;
-    }
-
-    header nav ul {
+      padding: 10px;
+  
+      nav ul {
         flex-direction: column;
         align-items: flex-start;
         padding: 0;
-    }
-
-    header nav ul li a {
-        padding: 10px 0;
-        padding-left: 10px;
-        font-size: 18px;
-    }
-
-    header h1 {
+  
+        li a {
+          padding: 10px 0 10px 10px;
+          font-size: 18px;
+        }
+      }
+  
+      h1 {
         font-size: 40px;
         margin-left: 20px;
+      }
     }
-
+  
     .Camisetas .grid-camisetas,
     .Pantalones .grid-pants,
     .Zapatillas .grid-zapas {
-        grid-template-columns: 1fr;
-        padding-left: 20px;
-        padding-right: 20px;
-        background-color: transparent;
-    }
-
-    .Camisetas .grid-camisetas .img1,
-    .Camisetas .grid-camisetas .img2,
-    .Camisetas .grid-camisetas .img3,
-    .Pantalones .grid-pants .img4,
-    .Pantalones .grid-pants .img5,
-    .Pantalones .grid-pants .img6,
-    .Zapatillas .grid-zapas .img7,
-    .Zapatillas .grid-zapas .img8,
-    .Zapatillas .grid-zapas .img9 {
+      grid-template-columns: 1fr;
+      padding: 0 20px;
+      background-color: transparent;
+  
+      .img1,
+      .img2,
+      .img3,
+      .img4,
+      .img5,
+      .img6,
+      .img7,
+      .img8,
+      .img9 {
         width: 100%;
         justify-content: center;
+      }
     }
-
+  
     .Verano .grid-verano,
     .Invierno .grid-invierno {
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
     }
-
-    .inicio h1 {
+  
+    .inicio {
+      h1 {
         font-size: 40px;
-    }
-
-    .inicio p,
-    .info p {
-        margin-left: 10px;
-        margin-right: 10px;
+      }
+  
+      p,
+      .info p {
+        margin: 0 10px;
         font-size: 18px;
+      }
     }
-
+  
     .contenedor {
-        flex-direction: column;
-        align-items: center;
+      flex-direction: column;
+      align-items: center;
     }
-
-    .card img,
-    .card .lavadora,
-    .card .micro {
+  
+    .card {
+      img,
+      .lavadora,
+      .micro {
         width: 80%;
         margin-bottom: 20px;
+      }
     }
-
+  
     .titulo {
-        font-size: 50px;
+      font-size: 50px;
     }
-
+  
     .confirmacion {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .confirmacion .no,
-    .confirmacion .si {
-        margin-left: 0;
-        margin-right: 0;
-        margin-bottom: 10px;
+      flex-direction: column;
+      align-items: center;
+  
+      .no,
+      .si {
+        margin: 0 0 10px;
         width: 80%;
         text-align: center;
+      }
     }
-}
+  }
+  
